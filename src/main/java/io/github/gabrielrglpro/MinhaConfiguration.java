@@ -7,8 +7,7 @@ import org.springframework.context.annotation.Profile;
 
 import javax.xml.ws.WebEndpoint;
 
-@Configuration
-@Profile("development")
+@Development
 public class MinhaConfiguration {
 
     @Bean()
